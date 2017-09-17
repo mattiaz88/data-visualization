@@ -1,0 +1,92 @@
+body {
+  width: 80%;
+  margin: 0 auto;
+  font-family: Helvetica,Arial,sans-serif;
+  font-size: 14px;
+}
+
+#graph {
+  display: -webkit-flex;
+  display: flex;
+  z-index: 0;
+  position: relative;
+}
+
+#graph svg {
+  width: 100%;
+  height: 100%;
+}
+
+.booktitle {
+  font-size: 1.2em;
+  line-height: 1.4em;
+}
+
+.legend {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: auto;
+  background-color: white;
+  padding: 0 10px;
+  line-height: 1em;
+  border-radius: 10px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+#graph .legend svg {
+  display: inline;
+  width: 15px;
+  height: 15px;
+}
+
+path.link {
+  fill: none;
+  stroke: #666;
+  stroke-width: 1.5px;
+}
+
+circle {
+  fill: #ccc;
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
+
+.conservative {
+  color: darkblue;
+}
+
+.liberal {
+  color: yellow;
+}
+
+.neutral {
+  color: gray;
+}
+
+text {
+  fill: #000;
+  font: 10px sans-serif;
+  pointer-events: none;
+}
+
+#tooltip {
+  position: absolute;
+  width: auto;
+  height: auto;
+  padding: 10px;
+  background-color: white;
+  z-index: 1;
+  border-radius: 10px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+  pointer-events: none;
+}
+
+#tooltip.hidden {
+  display: none
+}
+
+#tooltip p {
+  margin: 0;
+}

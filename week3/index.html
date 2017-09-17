@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<link rel="stylesheet" href="styles/main.css">
+<body>
+  <h1>Co-Purchases of Books about US politics</h1>
+  <div id="graph">
+    <div id="tooltip" class="hidden">
+      <p class="booktitle">“<strong id="title">Title</strong>”</p>
+      <p><span id="value">100</span> co-purchasing references</p>
+    </div>
+    <!-- TODO: Draw this legend with d3.js, at least make sure the color values are automatically in sync -->
+    <div class="legend">
+      <p><svg viewBox="-5 -5 10 10"><circle style="fill: rgb(255, 221, 0); stroke: rgb(255, 255, 255);" r="5"></circle></svg>Liberal</p>
+      <p><svg viewBox="-5 -5 10 10"><circle style="fill: rgb(8, 8, 185); stroke: rgb(255, 255, 255);" r="5"></circle></svg>Conservative</p>
+      <p><svg viewBox="-5 -5 10 10"><circle style="fill: rgb(169, 169, 169); stroke: rgb(255, 255, 255);" r="5"></circle></svg>Neutral</p>
+    </div>
+  </div>
+  <p><a href="http://www-personal.umich.edu/~mejn/netdata/polbooks.zip">Books
+    about US politics</a> (unpublished). Compiled by Valdis Krebs,
+  <a href="http://www.orgnet.com/">http://www.orgnet.com/</a>. Retrieved from
+  <a href="http://www-personal.umich.edu/~mejn/netdata/">http://www-personal.umich.edu/~mejn/netdata/</a>
+  on August 9th 2015.</p>
+  <p>Try zooming and dragging the graph, or hover on a node.</p>
+  <script src="js/d3.min.js" charset="utf-8"></script>
+  <!-- <script src="js/d3.min.js"></script> -->
+  <script src="js/app.js" charset="utf-8"></script>
+</body>
+</html>
+
