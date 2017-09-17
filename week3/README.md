@@ -9,7 +9,7 @@ and/or drag the graph, and mouseover the nodes).
 
 The result can look similar to this:
 
-<img src="https://github.com/andreaswachowski/dataviz-2/blob/master/screenshot.png" height=auto width="100%">
+<img src="https://bytebucket.org/chironai/coursera-data-visualization/raw/b17ec231cfad0a9ed9c46bdbff88d74ed7c5e68a/week3/screenshot.png?token=523b52bf345cd01ce6b64687db80368dc8a91b48" height=auto width="100%">
 
 ## Explanation
 
