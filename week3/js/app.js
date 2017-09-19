@@ -4,8 +4,9 @@
 // Creator "Mark Newman on Wed Oct 18 16:42:04 2006"
 
 // It was manually (ie with vim (http://www.vim.org/)) converted to JSON.
+//
 
-d3.json("js/polbooks.json", function(error, graph) {
+d3.json("https://raw.githubusercontent.com/mattiaz88/data-visualization/master/week3/js/polbooks.json", function(error, graph) {
 
 if (error) return console.warn(error);
 
